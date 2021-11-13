@@ -3,7 +3,7 @@
   }
 
   body {
-	background-color: lightblue;
+	background-color: lightskyblue;
   }
   
   .container {
@@ -17,11 +17,19 @@
 	font-family: sans-serif;
   }
   
-  h1 {
+h1 {
 	margin: 0;
 	text-align: center;
 	color: #FDF3E6;
   }
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b1c9bb;
+  padding: 0 0 10px;
+  color: #57635c;
+}
 
   .logo {
 	width: 100%;
@@ -42,4 +50,34 @@
 	border-radius: 5px;
 	background: #fff;
 	margin: 15px 0;
+  }
+
+
+  .todo-list {
+	float: left;
+	width: 46%;
+  }
+  
+  .complete-list {
+	float: right;
+	width: 46%;
+  }
+  
+  ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  li {
+	padding: 10px;
+	border-bottom: 1px dotted #ccc;
+  }
+  
+  .delete {
+	float: right;
+	background-color: red;
+	color: white;
+	border: 0px;
+	padding: 3px 5px;
   }
