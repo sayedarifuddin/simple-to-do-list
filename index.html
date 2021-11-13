@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="181003612 & 181009012" />
+    <meta name="author" content="the_internet" />
     <meta name="description" content="Web Development Project" />
     <title>Todo List Web Application</title>
     <link rel="stylesheet" href="style.css" />
+
+
   </head>
   <body>
     <section class="container">
@@ -20,6 +22,30 @@
         <input type="text" id="new-task" />
         <input type="submit" id="addTask" value="Add Task" />
       </form>
+
+
+      <div class="todo-list box">
+        <h2>Incomplete Tasks</h2>
+        <ul id="items">
+          <li class="item">
+            <input type="checkbox" /><label>Task 1</label>
+          </li>
+          <li class="item">
+            <input type="checkbox" /><label>Task 2</label>
+          </li>
+          <li class="item">
+            <input type="checkbox" /><label>Task 3</label>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="complete-list box">
+        <h2>Completed Tasks</h2>
+        <ul>
+          <li class="item">Task 0 <button class="delete">x</button></li>
+        </ul>
+      </div>
+
 
    </section>
    </body>
