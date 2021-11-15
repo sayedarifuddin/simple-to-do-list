@@ -1,2 +1,2 @@
-simple todolist app
-HTML, CSS, JS
+# simple todolist app
+# HTML, CSS, JS
