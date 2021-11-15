@@ -1,1 +1,2 @@
-# simple-to-do-list
+simple todolist app
+HTML, CSS, JS
