@@ -1,3 +1,3 @@
-### simple todolist app
-### HTML, CSS, JS
-### https://sayedarifuddin.github.io/simple-todolist-app/
+# simple todolist app
+## HTML, CSS, JS
+## Demo: https://sayedarifuddin.github.io/simple-todolist-app/
